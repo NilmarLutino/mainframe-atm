@@ -17,6 +17,18 @@ CREATE TABLE IF NOT EXISTS historico (
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
 
+/*
+-- Crear la tabla de Historico Contraseñas
+CREATE TABLE IF NOT EXISTS historicoContrasenias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario_id INT,
+    contraseniaAnterior INT,
+    contraseniaNueva INT,
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
+);
+*/
+
 -- Insertar datos de ejemplo
 -- Insertar datos de ejemplo en usuarios
 INSERT INTO usuarios (nombre, pin, saldo) VALUES 
