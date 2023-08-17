@@ -31,7 +31,7 @@
       <artifactId>exec-maven-plugin</artifactId>
       <version>3.1.0</version> <!-- Reemplaza LATEST_VERSION con la última versión disponible -->
       <configuration>
-        <mainClass>bo.edu.ucb.sis213.App</mainClass>
+        <mainClass>bo.edu.ucb.sis213.ATMApp</mainClass>
       </configuration>
     </plugin>
   </plugins>
