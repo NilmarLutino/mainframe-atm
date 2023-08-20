@@ -91,11 +91,20 @@ docker exec -it mysql-atm mysql -u root -p
 CREATE DATABASE atm;
 ```
 
-4. Creamos la Base de Datos del ATM.
+4. Creamos y usamos la Base de Datos del ATM.
 
 ```
 use atm;
 ```
 
 5. Ejecutan el script init.sql de la carpeta database.
+
+6. Ejecutan el script agregar_Usuarios.sql de la carpeta database.
+
+7. Comandos Consultas SQL
+
+```
+SELECT * FROM usuarios;
+
+SELECT * FROM historico;
 
