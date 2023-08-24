@@ -29,9 +29,9 @@
     <plugin>
       <groupId>org.codehaus.mojo</groupId>
       <artifactId>exec-maven-plugin</artifactId>
-      <version>3.1.0</version> <!-- Reemplaza LATEST_VERSION con la última versión disponible -->
+      <version>3.1.0</version> 
       <configuration>
-        <mainClass>bo.edu.ucb.sis213.ATMApp</mainClass>
+        <mainClass>bo.edu.ucb.sis213.BI.App</mainClass>
       </configuration>
     </plugin>
   </plugins>
